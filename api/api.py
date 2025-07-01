@@ -4,7 +4,7 @@ import allure
 import requests
 from jsonschema.validators import validate
 from helper.load import load_json_schema
-
+from helper.parser import get_data
 from helper.logger import log
 
 class Api:
